@@ -1,2 +1,4 @@
 # threatbutt
-Threatbutt CLI Client
+Threatbutt.com CLI Client
+
+Please use responsibly.
