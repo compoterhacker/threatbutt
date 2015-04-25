@@ -1,7 +1,9 @@
 ![ThreatButt](http://threatbutt.com/threatbutt.png)
 
-# [ThreatButt](http://threatbutt.com) Command-line Client
+# [ThreatButt](http://threatbutt.com) Suite
 ### Features
+* *****NEW***** Threatbutt Framework
+* Command-line client
 * Defense in derpth
 * Agile, sleek, command line interface
 * Customer journey development
@@ -9,7 +11,7 @@
 * Guerrilla user Research
 * Competitive analysis
 * Best practices analysis
-* >>>TLS 1.2 ENCRYPTION<<<
+* *****TLS 1.2 ENCRYPTION*****
 * Focus groups
 * Content personas
 * Rapid Prototyping
@@ -23,7 +25,12 @@
 ### Installation
 * Install perl dependencies `cpanm --sudo -v -n --installdeps .`
 
-### Usage
+### Threatbutt Framework Usage
+```shell
+$ perl tbf.pl
+```
+![](http://i.imgur.com/na4ulPT.png)
+### CLI Client Usage (deprecated)
 ```shell
 $ perl threatbutt.pl --ip lol
 
