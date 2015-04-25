@@ -95,6 +95,7 @@ while(1){
       print "Handshake failed, retrying... \n";
       sleep 2;
       print "Received data: $content\n";
+      $ip = undef;
     } elsif ($md5) {
       my $dong = {
         'hash' => $md5,
@@ -107,6 +108,7 @@ while(1){
       print "Handshake failed, retrying... \n";
       sleep 2;
       print "Received data: $content\n";
+      $md5 = undef;
     } else {
       print "\nset your lolptions, butt.";
     }
