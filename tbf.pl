@@ -74,7 +74,7 @@ while(1){
   } elsif ($lol =~ /^proxy/) {
     $lol =~ s/proxy //;
     print "Proxy set: $lol";
-    $curl->proxy('http://' . $lol . '/');
+    $curl->proxy('socks://' . $lol . '/');
   } elsif ($lol =~ /^ip/) {
     $lol =~ s/ip //;
     $ip = $lol;
