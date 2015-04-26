@@ -71,8 +71,9 @@ while(1){
     print $help;
   } elsif ($lol eq 'exit') {
     exit;
-  } elsif ($lol =~ /^socks/) {
-    $lol =~ s/socks //;
+  } elsif ($lol =~ /^proxy/) {
+    $lol =~ s/proxy //;
+    print "Proxy set: $lol";
     $curl->proxy('http://' . $lol . '/');
   } elsif ($lol =~ /^ip/) {
     $lol =~ s/ip //;
