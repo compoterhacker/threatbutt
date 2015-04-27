@@ -2,6 +2,7 @@
 
 # [ThreatButt](http://threatbutt.com) Suite
 ### Features
+* *****NEW***** Threatbutt Enterprise Pro Advanced APT Cyber Defense Model Suite Integration(XML not yet supported)
 * *****NEW***** Threatbutt Framework
 * Command-line client
 * Defense in derpth
@@ -25,6 +26,11 @@
 ### Installation
 * Install perl dependencies `cpanm --sudo -v -n --installdeps .`
 
+### Threatbutt Enterprise Usage
+```shell
+$ perl tbe.pl
+```
+![](http://i.imgur.com/bHosRHo.png)
 ### Threatbutt Framework Usage
 ```shell
 $ perl tbf.pl
