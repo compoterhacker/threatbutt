@@ -12,7 +12,7 @@
 * Guerrilla user Research
 * Competitive analysis
 * Best practices analysis
-* *****TLS 1.2 ENCRYPTION*****
+* *****TLS 1.2 'MILITARY GRADE' ENCRYPTION*****
 * Focus groups
 * Content personas
 * Rapid Prototyping
